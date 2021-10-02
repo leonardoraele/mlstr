@@ -1,0 +1,17 @@
+{
+  "name": "mlstr",
+  "version": "1.0.0",
+  "description": "Multiline template string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mlstr",
+    "multiline",
+    "string",
+    "template"
+  ],
+  "author": "Leonardo Raele <leonardoraele@gmail.com>",
+  "license": "MIT"
+}
