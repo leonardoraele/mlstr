@@ -1,6 +1,6 @@
 {
   "name": "mlstr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Zero-dependency multiline template string",
   "main": "index.js",
   "scripts": {
