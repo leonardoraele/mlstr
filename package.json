@@ -1,10 +1,14 @@
 {
   "name": "mlstr",
   "version": "1.0.0",
-  "description": "Multiline template string",
+  "description": "Zero-dependency multiline template string",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonardoraele/mlstr.git"
   },
   "keywords": [
     "mlstr",
