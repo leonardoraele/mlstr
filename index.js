@@ -1,15 +1,3 @@
-const EOL = (() =>
-{
-	try
-	{
-		return require('os').EOL;
-	}
-	catch(e)
-	{
-		return '\n';
-	}
-})();
-
 module.exports = function mlstr(strParts, ...argParts)
 {
 	return argParts.reduce(
@@ -24,5 +12,5 @@ module.exports = function mlstr(strParts, ...argParts)
 		.trim()
 		.split(/[\t ]*(?:(?:\r|\n|\r\n)[\t ]*)+(?:\r|\n|\r\n)[\t ]*/g)
 		.map(str => str.replace(/[\t ]*(?:\r|\n|\r\n)[\t ]*/g, ' '))
-		.join(EOL);
+		.join('\n');
 }
